@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+	font-family: 'Lato', sans-serif;
+	background-color: hsl(0, 0%, 21%);
+	min-height: 101.3vh;
+	font-weight: bold;
+	color: white;
+}
+
+.title, .subtitle, p {
+	font-weight: bolder;
+	color: white;
+}
+
+.fab, .fas {
+	color: #0C6998;
+}
+
+a {
+	color: deepskyblue;
+}
+
+a .fab {
+	padding: 5px;
+}
+
+a .fas {
+	padding: 5px;
+}
+
+a:hover {
+	color: #076898;
+}
+
+a:hover .fab {
+	transform: scale(1.25);
+	color: #035B87;
+}
+a:hover .fas {
+	transform: scale(1.25);
+	color: #035B87;
+}
+.image {
+	width: 400px;
+	border-radius: 15px;
+	margin: auto;
+}

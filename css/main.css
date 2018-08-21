@@ -46,3 +46,7 @@ a:hover .fas {
 	border-radius: 15px;
 	margin: auto;
 }
+
+code {
+	background-color: transparent;
+}
